@@ -1,0 +1,14 @@
+#exit3 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 40px;
+  z-index: 999;
+}
+
+.main-color {
+  color: "#fff";
+}
+
+.secondary-color {
+  color: "#ff206e";
+}

@@ -1,0 +1,80 @@
+.main-bg-color {
+  background-color: #0c1e25;
+  width: 100%;
+}
+
+.secondary-bg-color {
+  background-color: #fff;
+  width: 100%;
+}
+
+.movies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#container {
+  position: relative;
+}
+
+.movies-container img {
+  width: 300px;
+  height: 450px;
+  margin: 12px 0 4px 15px;
+  border-radius: 18px;
+}
+
+.movies-container img {
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.movies-container img:hover {
+  transform: scale(1.05);
+}
+
+#play-icon {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  visibility: visible;
+  z-index: 100;
+}
+
+.dark-theme {
+}
+
+.light-theme-color {
+}
+
+#smaller-text {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+#no-container {
+  opacity: 0.35;
+}
+
+#hide {
+  display: none;
+}
+
+#exit1 {
+  position: absolute;
+  left: 73rem;
+  top: 110px;
+  z-index: 999;
+}
+
+#nothing {
+  color: green;
+}
+
+.movie-light {
+  color: "#fff";
+}
+

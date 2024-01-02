@@ -1,0 +1,181 @@
+.background-color-main {
+  width: 100vw;
+  height: 91vh;
+  background-color: #0c1e25;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-container {
+  display: flex;
+  color: #fff;
+}
+
+.pricing-options {
+}
+
+.pricing-option1,
+.pricing-option2,
+.pricing-option3 {
+  width: 30vw;
+  height: 80vh;
+  background-color: #000d13;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.light-theme1,
+.light-theme2,
+.light-theme1 {
+  width: 30vw;
+  height: 63vh;
+  background-color: #29534e;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.pricing-option1 h3,
+.pricing-option2 h3,
+.pricing-option3 h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+  color: #ee9b00;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.light-theme1 h3,
+.light-theme2 h3,
+.light-theme3 h3 {
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.pricing-option1 h2,
+.pricing-option2 h2,
+.pricing-option3 h2 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.light-theme1 h2,
+.light-theme2 h2,
+.light-theme3 h2 {
+  color: #ff206e;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-option1 span,
+.pricing-option2 span,
+.pricing-option3 span {
+  display: flex;
+  font-size: 1.3rem;
+  margin-left: 80px;
+  margin-bottom: 15px;
+  font-weight: 300px;
+}
+
+#monthlyYearly {
+  font-size: 1.4rem;
+}
+
+.light-theme1 span,
+.light-theme2 span,
+.light-theme3 span {
+  display: flex;
+  font-size: 1.3rem;
+  margin-left: 80px;
+  margin-bottom: 15px;
+  font-weight: 300px;
+  color: #fff;
+}
+
+#checkmark {
+  margin-right: 9px;
+}
+
+button {
+  width: 400px;
+  height: 6vh;
+  margin-left: 80px;
+  border: none;
+  border-radius: 7px;
+  background-color: #659664;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #588157;
+  transition: 0.4s;
+}
+
+#button1 {
+  margin-top: 98px;
+}
+
+#button2 {
+  margin-top: 55px;
+}
+
+#button3 {
+  margin-top: 12px;
+}
+
+#darktheme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pricing-yearly-darktheme {
+  position: relative;
+  /* margin-left: 250px; */
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #413e44;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.pricing-monthly-darktheme {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.pricing-monthly-light {
+  position: absolute;
+  background-color: #fff;
+  left: 32px;
+  top: 4px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.pricing-options {
+ display: flex;
+}
